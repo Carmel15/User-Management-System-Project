@@ -124,14 +124,6 @@ class validationInReact extends React.Component {
       }
     });
   };
- 
-  // handleClick = e=>
-  // {
-    
-  //   e.preventDefault();
-  //   <View />
-  //   alert("back");
-  // }
   handleSubmit = e => {
     const { fields } = this.state;
     e.preventDefault();
