@@ -1,0 +1,375 @@
+/* Navbar */
+
+nav
+{
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding:10px 80px;
+background: black;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#navbar
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1400px;
+}
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+ transition: 0.3s ease-in-out;
+
+}
+#navbar li {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+ transition: 0.3s ease-in-out;
+
+}
+
+#navbar li a:hover,
+#navbar li a:active
+{
+  color:yellow;
+}
+#navbar li a:hover::after,
+#navbar li a.active::after
+{
+  content: "";
+  width:75%;
+  height:2px;
+  background: white;
+  position:absolute;
+  bottom:-5px;
+  left:20px;
+
+}
+
+/* Home pages */
+/* Registration */
+.container {
+    max-width: 350px !important;
+    width: 94%;
+    height:90%;
+    backdrop-filter: blur(5px);
+    background-color:  rgb(185, 191, 189);
+    border-radius: 9px;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-left: 725px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    box-shadow: 0 0 10px 6px #2a443a25;
+    border: 2px solid;
+  }
+
+  /* Update */
+  .containerupdate {
+    max-width: 350px !important;
+    width: 94%;
+    height:90%;
+    backdrop-filter: blur(5px);
+    background-color:   rgb(185, 191, 189);
+    border-radius: 9px;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    box-shadow: 0 0 10px 6px #2a443a25;
+    border: 2px solid;
+  }
+  .containerupdate .btn-outline-primary
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .containerupdate .btn-outline-danger
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+  /* AdminHomepage */
+  .containerhome {
+    max-width: 350px !important;
+    width: 94%;
+    height:90%;
+    backdrop-filter: blur(5px);
+    background-color:   rgb(185, 191, 189);
+    border-radius: 9px;
+    opacity: 0.9;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    box-shadow: 0 0 10px 6px #2a443a25;
+    border: 2px solid;
+  }
+  .containerhome .b1
+  {
+    padding-top: 80px;
+    padding-right: 65px;
+    padding-left: 25px;
+   
+  }
+  .containerhome .b2
+  {
+    padding-top: 80px;
+    padding-right: 65px;
+    padding-left: 25px;
+    padding-bottom: 80px;
+  }
+ 
+ .containerhome button{
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+   
+    background-color:black;
+  }
+  .containerhome .b1 #buttag7
+  {
+    color: white;
+    padding-left: 45px;
+    padding-right: 40px;
+  }
+  .containerhome .b2 #buttag8
+  {
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+ 
+  /* Userhomepage */
+  .containeruser {
+    max-width: 350px !important;
+    width: 94%;
+    height:90%;
+    backdrop-filter: blur(5px);
+    background-color:   rgb(185, 191, 189);
+    border-radius: 9px;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    box-shadow: 0 0 10px 6px #2a443a25;
+    border: 2px solid;
+  }
+ .containeruser .bt
+  {
+    padding-top: 80px;
+    padding-right: 65px;
+    padding-left: 25px;
+   
+  }
+  .containeruser .bt1
+  {
+    padding-top: 70px;
+    padding-right: 65px;
+    padding-bottom: 80px;
+    padding-left: 25px;
+  }
+ 
+ .containeruser button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+   
+    background-color:black;
+  }
+  .containeruser .bt #buttag1
+  {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .containeruser .bt1 #buttag2
+  {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+ 
+  
+  /* Footer */
+ .social-container{
+    background: black;
+    padding: 25px 500px;
+    margin-top: 2px;
+   
+  }
+  .social-container-home{
+    background: black;
+    padding: 25px 100px;
+    margin-top: 230px;
+   
+  }
+  .social-container-user
+  {
+     background: black;
+    padding: 25px 50px;
+    margin-top: 80px;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: red;
+  }
+
+.social-container-login {
+  margin-top: 400px;
+  background-color: black;
+}
+
+
+.image
+{
+    height: 40px;
+    width:40px;
+    margin-left: 20px;
+    
+}
+label {
+  line-height: 3;
+  padding-bottom: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button{
+  font-size: 20px;
+  display: block;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 70px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.text-danger {
+  font-size: 1em;
+  color: rgb(212, 18, 18);
+  line-height: 1;
+  font-weight: bold;
+  margin-top: 0;
+}
+.heading {
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  color: #063b37;
+  padding-top: 7px;
+}
+.Form1 .container input {
+  background-repeat: no-repeat;
+  background-position: 6px;
+  border: 1px solid #dadada;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  display: block;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 1px solid rgb(22, 4, 4);
+}
+.Form3 .containerupdate input {
+  background-repeat: no-repeat;
+  background-position: 6px;
+  border: 1px solid #dadada;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+  display: block;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 1px solid rgb(22, 4, 4);
+}
+
+.Form1 h1{
+  margin-left: 50px;
+  margin-top: 5px;
+  color: black;
+}
+.Form3 h1{
+  margin-left: 50px;
+  margin-top: 15px;
+  color: black;
+}
+
+.modal-content
+{
+  max-width: 350px !important;
+  width: 94%;
+  height:90%;
+  backdrop-filter: blur(5px);
+  background-color:  rgb(240, 253, 249);
+  border-radius: 9px;
+  opacity: 0.9;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  padding: 10px 40px;
+  box-shadow: 0 0 10px 6px #2a443a25;
+  border: 2px solid;
+}
+
+/* View user */
+
+.Form2 h1{
+  
+  margin-top: 5px;
+  color: black;
+  
+}
+.Form2 th{
+  color: black;
+  font-size: 25px;
+}
+.Form2 td{
+  color: black;
+  font-size: 25px;
+}
