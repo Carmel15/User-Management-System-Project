@@ -288,14 +288,12 @@ class validationInReact extends React.Component {
                  <span className="text-danger">{errors.userType}</span>
                </div>
          </div>
-         <br></br> <br></br>
+         <br></br> <br></br>        
         <button
           type="button"
           className="login-button pointer"
           onClick={this.handleSubmit} >
           Submit
-        </button>
-   <button className="login-button pointer"> <Link to="/Viewuser" className="login-button pointer">Back</Link>
         </button>
       </div>
     </div>
