@@ -295,6 +295,8 @@ class validationInReact extends React.Component {
           onClick={this.handleSubmit} >
           Submit
         </button>
+        <button className="login-button pointer"> <Link to="/Adminhomepage" className="login-button pointer">Back</Link>
+        </button>
       </div>
     </div>
     </>
