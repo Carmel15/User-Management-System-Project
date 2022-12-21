@@ -18,8 +18,8 @@ import React, { useState, useEffect } from "react";
   async function listHistory() {
     const response = await fetch('http://localhost:8080/gethistorylist');
     const json = await response.json();
-    json.sort((a,b) => {
-      return new Date(a.lastLoginTimeStamp).getTime() - new Date(b.lastLoginTimeStamp).getTime()
+    json.sort((a) => {
+      return new Date(a.lastLoginTimeStamp).getTime() 
   }).reverse();
     setEmployee1(json);
     console.log(json);
