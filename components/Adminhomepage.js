@@ -21,6 +21,7 @@ function Adminhomepage() {
           <ul id="navbar">
             <li>Hi..{localStorage.getItem("names")}</li>
             <li><a className="active" href="http://localhost:3000">Logout</a></li>
+            <li><button onClick={() => navigate("/Historyview")}>Login History</button></li> 
           </ul>
         </div>
       </nav>

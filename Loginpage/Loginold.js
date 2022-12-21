@@ -74,6 +74,7 @@ const url =
           if(result.status=="200")
          {
           localStorage.setItem("names",result.data.firstName)
+          localStorage.setItem("Id",result.data.id)
           alert(" Login Successful");
           
           if(result.data.userType==="admin")
